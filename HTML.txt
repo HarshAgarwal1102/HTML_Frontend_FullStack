@@ -1,0 +1,26 @@
+HTML (Hyper Text Markup Language)
+
+Used to define the structure of the webpage.
+Arrange WebContent in form of paragraph, list, image, link, multimedia, forms etc.
+
+HTML is a collection of elements, mixing elements make document.
+
+<h1> Hello </h1>
+
+<h1>   ->   Opening Tage
+Hello   ->   Content
+</h1>  ->  Closing Tag
+
+H1   ->   Element
+<> </>  ->  Tag
+
+1. Simple Element 
+	<p> Hello </p>
+2. Nested Element
+	<p> Hello <Strong> Harsh </Strong> </p>
+3. Void Element
+	<br/>
+4. With Attributes
+	<p class=“red”> Hello </p>
+5. Boolean Attributes
+	<Button disabled> OK </Button>

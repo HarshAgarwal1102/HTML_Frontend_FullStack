@@ -28,6 +28,6 @@ H1   ->   Element
 
 HTML is an root element of the Web Page.
 <HTML>   ->  Root Tag
-    <Head></Head>   ->  Child Tag
-    <Body></Body>   ->  Child Tag
+    <Head></Head>   ->  Child Tag       (Content related to Linkage of CSS & JS, Meta data, SEO, Charset, etc...)
+    <Body></Body>   ->  Child Tag       (All content will appear here...)
 </HTML>  ->  Root Tag

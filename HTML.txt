@@ -31,3 +31,12 @@ HTML is an root element of the Web Page.
     <Head></Head>   ->  Child Tag       (Content related to Linkage of CSS & JS, Meta data, SEO, Charset, etc...)
     <Body></Body>   ->  Child Tag       (All content will appear here...)
 </HTML>  ->  Root Tag
+
+
+heading tags          Rank            Pixel(px)           empheral Unit(em)
+    h1                 1                32 px                   2 em
+    h2                 2                24 px                  1.5 em
+    h3                 3               18.72 px                1.17 em
+    h4                 4                16 px                   1 em
+    h5                 5               13.28 px                0.83 em
+    h6                 6               10.72 px                0.67 em

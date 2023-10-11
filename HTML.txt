@@ -1,6 +1,4 @@
-HTML (Hyper Text Markup Language)  
-
-It's an root element of the Web Page.
+HTML (Hyper Text Markup Language)
 
 Used to define the structure of the webpage.
 Arrange WebContent in form of paragraph, list, image, link, multimedia, forms etc.
@@ -26,3 +24,10 @@ H1   ->   Element
 	<p class=“red”> Hello </p>
 5. Boolean Attributes
 	<Button disabled> OK </Button>
+
+
+HTML is an root element of the Web Page.
+<HTML>   ->  Root Tag
+    <Head></Head>   ->  Child Tag
+    <Body></Body>   ->  Child Tag
+</HTML>  ->  Root Tag

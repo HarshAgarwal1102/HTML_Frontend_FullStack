@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Person Details</caption>
+        <thead>
+        <tr >
+            <th style="border: 2px solid green;">Id</th>
+            <th scope="col">Name</th>
+            <th scope="row">City</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1010</td>
+            <td>Tim</td>
+            <td>Delhi</td>
+            <td>2222</td>
+        </tr>
+        <tr>
+            <td>1010</td>
+            <td>Kim</td>
+            <td>Delhi</td>
+            <td>2222</td>
+        </tr>
+        <tr>
+            <td>1010</td>
+            <td>Vim</td>
+            <td>Delhi</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Office Phone</td>
+                        <td>11111</td>
+                    </tr>
+                    <tr>
+                        <td>Res Phone</td>
+                        <td>2222</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Summary- Total Records </td>
+            <td>3</td>
+        </tr>
+    </tfoot>
+    </table>    
+</body>
+</html>

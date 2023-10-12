@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <img srcset="small.jpg 480w,big.jpg 800w" sizes="(max-width:600px) 480px,800px" src="c.jpg" alt = "some image will be load"> -->
+    <picture>
+        <source media="(max-width:800px)" srcset="a.jpg"/>
+        <source media="(min-width:600px)" srcset="b.jpg"/>
+       <img src="c.jpg" alt="loading..">
+    </picture>
+</body>
+</html>
